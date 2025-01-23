@@ -1,3 +1,8 @@
+// Simple Poker Game
+// Luis Flores
+// Caydin Klups
+// Hemant Kulkarni
+// 10/10/2021
 #include <iostream>
 #include <string>
 #include <cstdlib>
@@ -120,7 +125,7 @@ int initializeBet(int &money) {
     return bet;
 }
 
-// Function Added to display users final money after game
+// Function Added to display users final money after
 int finalMoney(int money) {
     cout << "You have this much money left: " << money << endl;
     return money;
